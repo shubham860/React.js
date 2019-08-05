@@ -5,12 +5,16 @@ import Greet from './components/Greet'
 import Welcome from './components/welcome'
 import Message from './components/Message'
 import Counter from './components/Counter'
+import Functionclick from './components/functionclick'
+import Classclicked from './components/Classclicked'
 
 function App() {
   return (
     <div className="App">
-    <Counter/>
-  <Message/>
+      <Classclicked/>
+      <Functionclick/>
+      <Counter/>
+      <Message/>
       <Greet name="shubham" hobbies="cricket">
         <p>love to play cricket</p>
       </Greet>
