@@ -8,11 +8,13 @@ import Counter from './components/Counter'
 import Functionclick from './components/functionclick'
 import Classclicked from './components/Classclicked'
 import Eventhandler from './components/Eventhandler'
+import ParentComponent from './components/ParentComponent'
 
 function App() {
   return (
     <div className="App">
-      {<Eventhandler/>}
+      {<ParentComponent/>}
+      {/*<Eventhandler/>*/}
       {/*<Classclicked/>*/}
       {/*<Functionclick/>*/}
       {/*<Counter/>*/}
