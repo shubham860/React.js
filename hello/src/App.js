@@ -7,10 +7,12 @@ import Message from './components/Message'
 import Counter from './components/Counter'
 import Functionclick from './components/functionclick'
 import Classclicked from './components/Classclicked'
+import Eventhandler from './components/Eventhandler'
 
 function App() {
   return (
     <div className="App">
+      {<Eventhandler/>}
       {/*<Classclicked/>*/}
       {/*<Functionclick/>*/}
       {/*<Counter/>*/}
