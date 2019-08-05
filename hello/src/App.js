@@ -10,19 +10,19 @@ function App() {
   return (
     <div className="App">
     <Counter/>
-    // <Message/>
-      // <Greet name="shubham" hobbies="cricket">
-      //   <p>love to play cricket</p>
-      // </Greet>
-      // <Greet name="ritvik" hobbies="coding">
-      //   <p>love to play with code</p>
-      // </Greet>
-      // <Greet name="shubham bhalu" hobbies="chess">
-      //   <p>love to play chess</p>
-      // </Greet>
-      // <Welcome name="shubham" hobbies="cricket"/>
-      // <Welcome name="ritvik" hobbies="coding"/>
-      // <Welcome name="shubham bhalu" hobbies="chess"/>
+  <Message/>
+      <Greet name="shubham" hobbies="cricket">
+        <p>love to play cricket</p>
+      </Greet>
+      <Greet name="ritvik" hobbies="coding">
+        <p>love to play with code</p>
+      </Greet>
+      <Greet name="shubham bhalu" hobbies="chess">
+        <p>love to play chess</p>
+      </Greet>
+      <Welcome name="shubham" hobbies="cricket"/>
+      <Welcome name="ritvik" hobbies="coding"/>
+      <Welcome name="shubham bhalu" hobbies="chess"/>
     </div>
   )
 }
