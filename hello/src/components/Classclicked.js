@@ -2,14 +2,14 @@ import React,{Component} from 'react'
 
 class Classclicked extends Component{
 
-eventHandler(){
+clickHandler(){
   alert("button clickeed")
 }
 
  render(){
    return(
    <div>
-    <button onClick={this.eventHandler}>class clicked </button>
+    <button onClick={this.clickHandler}>class clicked </button>
    </div>
  )
 }
