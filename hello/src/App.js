@@ -10,11 +10,13 @@ import Classclicked from './components/Classclicked'
 import Eventhandler from './components/Eventhandler'
 import ParentComponent from './components/ParentComponent'
 import UserGretting from './components/UserGretting'
+import NameList from './components/NameList'
 
 function App() {
   return (
     <div className="App">
-      {<UserGretting/>}
+      {<NameList/>}
+      {/*<UserGretting/>*/}
       {/*<ParentComponent/>*/}
       {/*<Eventhandler/>*/}
       {/*<Classclicked/>*/}
