@@ -9,11 +9,13 @@ import Functionclick from './components/functionclick'
 import Classclicked from './components/Classclicked'
 import Eventhandler from './components/Eventhandler'
 import ParentComponent from './components/ParentComponent'
+import UserGretting from './components/UserGretting'
 
 function App() {
   return (
     <div className="App">
-      {<ParentComponent/>}
+      {<UserGretting/>}
+      {/*<ParentComponent/>*/}
       {/*<Eventhandler/>*/}
       {/*<Classclicked/>*/}
       {/*<Functionclick/>*/}
