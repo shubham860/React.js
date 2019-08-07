@@ -11,11 +11,19 @@ import Eventhandler from './components/Eventhandler'
 import ParentComponent from './components/ParentComponent'
 import UserGretting from './components/UserGretting'
 import NameList from './components/NameList'
+import Stylesheet from './components/Stylesheet'
+import Form from './components/Form'
+import './components/Appstyle.css'
+import styles from './components/Appstyle.module.css'
 
 function App() {
   return (
     <div className="App">
-      {<NameList/>}
+      <Form/>
+      {/*<h1 className='error'>error</h1>*/}
+      {/*<h1 className={styles.success}>success</h1>*/}
+      {/*<Stylesheet primary={true}/>*/}
+      {/*<NameList/>*/}
       {/*<UserGretting/>*/}
       {/*<ParentComponent/>*/}
       {/*<Eventhandler/>*/}
