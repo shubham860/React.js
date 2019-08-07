@@ -1,6 +1,7 @@
 import React from 'react'
 
 const MemoComp = ({name}) => {
+  document.write('memo components')
   return (
     <div>
     {name}
