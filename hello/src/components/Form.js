@@ -39,6 +39,7 @@ noHandler = event => {
 
 submitHandler = event => {
   alert(`Submit successfully`)
+  console.log(`${this.state.email}`)
 }
 
  render(){

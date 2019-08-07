@@ -13,13 +13,21 @@ import UserGretting from './components/UserGretting'
 import NameList from './components/NameList'
 import Stylesheet from './components/Stylesheet'
 import Form from './components/Form'
+import LifecycleA from './components/LifecycleA'
 import './components/Appstyle.css'
 import styles from './components/Appstyle.module.css'
+import Fragments from './components/Fragments'
+import PureCompon from './components/PureCompon'
+
+
 
 function App() {
   return (
     <div className="App">
-      <Form/>
+      {<PureCompon/>}
+      {/*<Fragments/>*/}
+    {/*<LifecycleA/>*/}
+      {/*<Form/>*/}
       {/*<h1 className='error'>error</h1>*/}
       {/*<h1 className={styles.success}>success</h1>*/}
       {/*<Stylesheet primary={true}/>*/}
