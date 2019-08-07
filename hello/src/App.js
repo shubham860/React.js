@@ -17,14 +17,14 @@ import LifecycleA from './components/LifecycleA'
 import './components/Appstyle.css'
 import styles from './components/Appstyle.module.css'
 import Fragments from './components/Fragments'
-import PureCompon from './components/PureCompon'
+import ParentCompon from './components/ParentCompon'
 
 
 
 function App() {
   return (
     <div className="App">
-      {<PureCompon/>}
+      {<ParentCompon/>}
       {/*<Fragments/>*/}
     {/*<LifecycleA/>*/}
       {/*<Form/>*/}
