@@ -19,7 +19,7 @@ class ParentCompon extends PureComponent {
  }
 
   render () {
-    console.log('parent components')
+    document.write('parent components')
       return(<div>
           <p>Regular Component</p>
           <RegularCompon name={this.state.name} />
