@@ -20,13 +20,15 @@ import Fragments from './components/Fragments'
 import ParentCompon from './components/ParentCompon'
 import RefDemo from './components/RefDemo'
 import Parentref from './components/Parentref'
+import ParentForwardref from './components/ParentForwardref'
 
 
 
 function App() {
   return (
     <div className="App">
-      {<Parentref />}
+      {<ParentForwardref/>}
+      {/*<Parentref />*/}
       {/*<RefDemo/>*/}
       {/*<ParentCompon/>*/}
       {/*<Fragments/>*/}
