@@ -21,13 +21,15 @@ import ParentCompon from './components/ParentCompon'
 import RefDemo from './components/RefDemo'
 import Parentref from './components/Parentref'
 import ParentForwardref from './components/ParentForwardref'
+import PortalDemo from './components/PortalDemo'
 
 
 
 function App() {
   return (
     <div className="App">
-      {<ParentForwardref/>}
+      {<PortalDemo/>}
+      {/*<ParentForwardref/>*/}
       {/*<Parentref />*/}
       {/*<RefDemo/>*/}
       {/*<ParentCompon/>*/}
