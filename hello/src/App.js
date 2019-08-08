@@ -18,13 +18,17 @@ import './components/Appstyle.css'
 import styles from './components/Appstyle.module.css'
 import Fragments from './components/Fragments'
 import ParentCompon from './components/ParentCompon'
+import RefDemo from './components/RefDemo'
+import Parentref from './components/Parentref'
 
 
 
 function App() {
   return (
     <div className="App">
-      {<ParentCompon/>}
+      {<Parentref />}
+      {/*<RefDemo/>*/}
+      {/*<ParentCompon/>*/}
       {/*<Fragments/>*/}
     {/*<LifecycleA/>*/}
       {/*<Form/>*/}
