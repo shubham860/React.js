@@ -1,24 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import HocCounter from './HocCounter'
+
 
 class HoverCounter extends React.Component {
-  constructor(){
-    super()
-    this.state = {
-      count : 0
-    }
-  }
-
-  Handler = () =>{
-    this.setState((prevState) => ({
-      count : prevState.count + 1
-    }))
-    }
 
   render () {
+    const  {count,handler} = this.props
     return(
-    <h1 onMouseOver = {this.Handler}>Hover {this.state.count}</h1>
+    <h1 onMouseOver = {handler}>Hover {count}</h1>
   )}
 }
 
-export default HoverCounter
+export default HocCounter(HoverCounter)
