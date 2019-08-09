@@ -33,8 +33,8 @@ import HoverCounter from './components/HoverCounter'
 function App() {
   return (
     <div className="App">
-      <WithCounter/>
-      <HoverCounter/>
+      <WithCounter name="shubham"/>
+      <HoverCounter name="ritvik"/>
   {/*  <Error>
       <Hero name="batman"/>
     </Error>

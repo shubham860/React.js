@@ -4,10 +4,10 @@ import HocCounter from './HocCounter'
 
 class WithCounter extends React.Component {
   render () {
-  const  {count,handler} = this.props
+  const  {count,handler,name} = this.props
     return(
-    <button onClick = {handler}>Click {count}</button>
+    <button onClick = {handler}>{name} Click {count} times</button>
   )}
 }
 
-export default HocCounter(WithCounter)
+export default HocCounter(WithCounter,10)

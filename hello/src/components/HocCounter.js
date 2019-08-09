@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const HocCounter = (CounterFunction) => {
+const HocCounter = (CounterFunction,increment) => {
 class UpdatedComponent extends React.Component {
   constructor(props){
     super(props)
@@ -12,12 +12,13 @@ class UpdatedComponent extends React.Component {
 
   Handler = () =>{
     this.setState((prevState) => ({
-      count : prevState.count + 1
+      count : prevState.count + increment
     }))
     }
 render(){
    return (
-    <CounterFunction count={this.state.count} handler={this.Handler} />
+    <CounterFunction count={this.state.count} handler={this.Handler} {...this.props} />
+
          )
       }
 }
