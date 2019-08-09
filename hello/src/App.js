@@ -22,13 +22,29 @@ import RefDemo from './components/RefDemo'
 import Parentref from './components/Parentref'
 import ParentForwardref from './components/ParentForwardref'
 import PortalDemo from './components/PortalDemo'
+import Hero from './components/Hero'
+import Error from './components/Error'
+import WithCounter from './components/WithCounter'
+import HoverCounter from './components/HoverCounter'
+
 
 
 
 function App() {
   return (
     <div className="App">
-      {<PortalDemo/>}
+      <WithCounter/>
+      <HoverCounter/>
+  {/*  <Error>
+      <Hero name="batman"/>
+    </Error>
+    <Error>
+      <Hero name="superman"/>
+    </Error>
+    <Error>
+      <Hero name="joker"/>
+    </Error> */}
+      {/*<PortalDemo/>*/}
       {/*<ParentForwardref/>*/}
       {/*<Parentref />*/}
       {/*<RefDemo/>*/}
