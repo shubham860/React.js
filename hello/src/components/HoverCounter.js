@@ -4,7 +4,6 @@ import HocCounter from './HocCounter'
 
 
 class HoverCounter extends React.Component {
-
   render () {
     const  {count,handler,name} = this.props
     return(
