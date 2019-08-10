@@ -38,9 +38,7 @@ import {UserProvider} from './components/Context'
 function App() {
   return (
     <div className="App">
-      <UserProvider value="shubham">
       <ComponentA />
-      </UserProvider>
 
 
       {/*<Renderprops render={(count,increment)=>(
