@@ -26,6 +26,9 @@ import Hero from './components/Hero'
 import Error from './components/Error'
 import WithCounter from './components/WithCounter'
 import HoverCounter from './components/HoverCounter'
+import Renderprops from './components/Renderprops'
+import Counter2 from './components/Counter2'
+import Hover2 from './components/Hover2'
 
 
 
@@ -33,8 +36,16 @@ import HoverCounter from './components/HoverCounter'
 function App() {
   return (
     <div className="App">
-      <WithCounter name="shubham"/>
-      <HoverCounter name="ritvik"/>
+      <Renderprops render={(count,increment)=>(
+          <Counter2 count={count} increment={increment} />
+        )} />
+
+      <Renderprops render={(count,increment)=>(
+          <Hover2 count={count} increment={increment} />
+        )} />
+
+    {/* <WithCounter name="shubham"/>
+      <HoverCounter name="ritvik"/>*/}
   {/*  <Error>
       <Hero name="batman"/>
     </Error>
