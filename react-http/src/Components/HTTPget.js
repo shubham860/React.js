@@ -13,7 +13,8 @@ class HTTPget extends React.Component {
   }
 
 componentDidMount(){
-  axios.get('https://jsonplaceholder.typicode.com/posts')
+  axios
+ .get('https://jsonplaceholder.typicode.com/posts')
  .then(response=>{
    console.log(response.data)
    this.setState({list : response.data})
